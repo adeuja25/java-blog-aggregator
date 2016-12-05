@@ -7,8 +7,9 @@
   
   <!-- Shared version number properties -->
 <properties>
-	<org.springframework.version>4.0.2.RELEASE</org.springframework.version>
+	<org.springframework.version>4.3.4.RELEASE</org.springframework.version>
 	<apache.tiles>3.0.3</apache.tiles>
+	<spring.security.version>4.2.0.RELEASE</spring.security.version>
 </properties>
 
 	<dependencies>
@@ -210,6 +211,19 @@
 		<artifactId>jstl</artifactId>
 		<version>1.2</version>
 	</dependency>
+	
+	<dependency>
+		<groupId>org.springframework.security</groupId>
+		<artifactId>spring-security-web</artifactId>
+		<version>${spring.security.version}</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.springframework.security</groupId>
+		<artifactId>spring-security-config</artifactId>
+		<version>${spring.security.version}</version>
+	</dependency>
+	
 	</dependencies>
   
  <build>

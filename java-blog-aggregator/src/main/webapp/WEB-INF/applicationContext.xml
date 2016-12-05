@@ -41,4 +41,6 @@
 	
 	<jpa:repositories base-package="cz.jiripinkas.jba.repository"></jpa:repositories>
 	
+	<import resource="security.xml"/>
+	
 </beans>
