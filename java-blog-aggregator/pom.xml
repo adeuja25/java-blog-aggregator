@@ -229,6 +229,11 @@
 		<artifactId>spring-security-taglibs</artifactId>
 		<version>${spring.security.version}</version>
 	</dependency>
+	<dependency>
+	    <groupId>org.hibernate</groupId>
+	    <artifactId>hibernate-validator</artifactId>
+	    <version>5.3.3.Final</version>
+	</dependency>
 	</dependencies>
   
  <build>
