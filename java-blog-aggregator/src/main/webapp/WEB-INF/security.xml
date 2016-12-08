@@ -18,9 +18,8 @@
 			<logout logout-url="/logout"/>
 			<csrf disabled="true"/>
 		</http>
-		
-		
-		
+
+
 		<authentication-manager>
 			<authentication-provider>
 			

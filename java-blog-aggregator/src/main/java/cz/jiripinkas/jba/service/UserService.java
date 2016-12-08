@@ -54,7 +54,7 @@ public class UserService {
 			List<Item> items = itemRepository.findByBlog(blog, new PageRequest(0,10,Direction.DESC,"publishedDate"));
 			blog.setItems(items);
 		}
-		user.setBlogs(blogs);
+		user.setBlogs(blogs);	
 		return user;
 	}
 
@@ -78,6 +78,10 @@ public class UserService {
 
 	public void delete(int id) {
 		userRepository.delete(id);
+	}
+
+	public User findOne(String username) {
+		return userRepository.findByName(username);
 	}
 	
 	
